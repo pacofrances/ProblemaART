@@ -47,9 +47,9 @@ namespace ProblemaART
             int[] occurenceCount = new int[7];
             for (int i = 0; i < iterations; i++)
             {
-                //output = numberGenerator();
+                output = numberGenerator();
+                occurenceCount[output - 1]++;
                 Console.WriteLine(output);
-                //occurenceCount[output - 1]++;
             }
 
             Console.WriteLine("Number of occurences:");
